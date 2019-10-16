@@ -12,7 +12,7 @@ body {
 .menubar {
     width: 100%;
     height: 50px;
-    background: #fff;
+    background: #272537;
     box-shadow: 0 0 10px #666; 
 }
 
@@ -21,6 +21,7 @@ body {
 }
 
 .menubar h1 {
+    color: #D1DCE2;
     margin: 0;
     font-size: 24px;
     font-weight: normal;
@@ -36,28 +37,26 @@ body {
 }
 .menubar ul.menu li a {
     text-decoration: none;
-    color: #333;
+    color: #D1DCE2;
     border-bottom: 2px solid transparent;
     padding-bottom: 20px;
     transition: all 0.3s ease;
 }
 .menubar ul.menu li a:hover {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #D1DCE2;
     padding-bottom: 0;
 }
 
 .Topic {
-    background: #666 url() no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: #606977;
     width: 100%;
-    height: 450px;
+    height: 550px;
 }
 
 .Topic_area {
     padding-top: 150px;
     text-align: center;
-    color: #fff;
+    color: #D1DCE2;
     margin: 0 auto;
     width: 660px;
 }
@@ -75,21 +74,25 @@ body {
 
 
 .info1 {
+    background: #E5D817;
     width: 100%;
     height: 400px;
 }
 .info1_area {
-    color: #333;
+    color: #272537;
 }
 .info1_area img {
-    margin-top: 80px;
+    margin-top: 70px;
+    width: 40%;
+    height: 30%;
     float: left;
+    border-radius: 15%;
 }
 .info1_text {
     text-align: center;
     width: 460px;
     float: left;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 140px;
 }
 .info1_area h1 {
@@ -100,21 +103,24 @@ body {
 .info2 {
     width: 100%;
     height: 350px;
-    background: #333;
+    background: #E3BF76;
 }
 .info2_area {
     color: #333;
 }
 .info2_area img {
-    margin-top: 48px;
-    float: left;
-    margin-left: 40px;
+    margin-top: 40px;
+    width: 35%;
+    height: 20%;
+    float: right;
+    margin-right: 40px;
+    border-radius: 15px;
 }
 .info2_text {
     text-align: center;
     width: 460px;
-    float: left;
-    margin-left: 70px;
+    float: right;
+    margin-right: 100px;
     margin-top: 140px;
     color: #fff;
 }
