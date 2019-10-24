@@ -43,7 +43,22 @@
             width: inherit;
         }
 
-        #myNavbar li:hover ul {
+        #myNavbar li ul.hoverproject ul {
+            /* position: absolute; */
+            display: none;
+            width: inherit;
+        }
+
+        #myNavbar li ul.hoverproject:hover ul {
+            /* position: absolute; */
+            display: block;
+        }
+
+        #myNavbar li:hover ul.hoverproject_2 {
+            display: block;
+        }
+
+        #myNavbar li:hover ul.hoverproject {
             display: block;
         }
 
@@ -56,6 +71,17 @@
             color: white;
             display: block;
         }
+
+        .hoverproject_2 li a {
+            color: rgb(201, 200, 200);
+            display: block;
+        }
+
+        .hoverproject_2 li:hover a {
+            color: white;
+            display: block;
+        }
+
 
         body {
             font-family: 'Kanit', sans-serif;
@@ -76,6 +102,12 @@
                         <!--หมวดหมู่-->
                         <ul class="hoverproject">
                             <li><a href="story1.html">บทที่ 1 ชีวิตประจำวัน</a></li>
+                            <ul>
+                                <li><a href="#">1.1</a></li>
+                                <li><a href="#">1.2</a></li>
+                            </ul>
+                        </ul>
+                        <ul class="hoverproject_2">
                             <li><a href="story2.html">บทที่ 2 ธุรกิจและการค้าขาย</a></li>
                             <li><a href="story3.html">บทที่ 3 การท่องเที่ยว</a></li>
                             <li><a href="story4.html">บทที่ 4 การศึกษา</a></li>
