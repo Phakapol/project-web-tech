@@ -1,0 +1,76 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+        /* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+#myNavbar li ul {
+    /* position: absolute; */
+    display: none;
+    width: inherit;
+}
+
+#myNavbar li ul.hoverproject ul {
+    /* position: absolute; */
+    display: none;
+    width: inherit;
+}
+
+#myNavbar li ul.hoverproject:hover ul {
+    /* position: absolute; */
+    display: block;
+}
+
+#myNavbar li:hover ul.hoverproject_2 {
+    display: block;
+}
+
+#myNavbar li:hover ul.hoverproject {
+    display: block;
+}
+
+.hoverproject li a {
+    color: rgb(201, 200, 200);
+    display: block;
+}
+
+.hoverproject li:hover a {
+    color: white;
+    display: block;
+}
+
+.hoverproject_2 li a {
+    color: rgb(201, 200, 200);
+    display: block;
+}
+
+.hoverproject_2 li:hover a {
+    color: white;
+    display: block;
+}
+
+
+body {
+    font-family: 'Kanit', sans-serif;
+
+}
