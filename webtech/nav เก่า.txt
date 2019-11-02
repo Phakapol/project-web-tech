@@ -1,0 +1,29 @@
+<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a class="navbar-brand" href="#">Logo</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Lesson</a>
+                        <!--หมวดหมู่-->
+                        <ul class="hoverproject">
+                            <li><a href="story1.html">บทที่ 1 ชีวิตประจำวัน</a></li>
+                            <ul>
+                                <li><a href="#">1.1</a></li>
+                                <li><a href="#">1.2</a></li>
+                            </ul>
+                        </ul>
+                        <ul class="hoverproject_2">
+                            <li><a href="story2.html">บทที่ 2 ธุรกิจและการค้าขาย</a></li>
+                            <li><a href="story3.html">บทที่ 3 การท่องเที่ยว</a></li>
+                            <li><a href="story4.html">บทที่ 4 การศึกษา</a></li>
+                            <li><a href="story5.html">บทที่ 5 การแพทย์</a></li>
+                            <li><a href="story6.html">บทที่ 6 การกีฬา</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
