@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>About</title>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -13,16 +13,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
     <style>
+        /* ตกแต่งกล่อง 5.1 5.2 */
+        .boxlink button {
+            border: 1px solid #3498db;
+            padding: 10px 20px;
+            color: black;
+            background: none;
+            font-size: 20px;
+        }
+
+        .boxlink button:hover {
+            color: white;
+            background: #3498db;
+        }
+
         body {
             font-family: 'Kanit', sans-serif;
-        }
-
-        .people {
-            padding-left: 10%;
-        }
-
-        .container {
-            margin-top: -2%;
         }
     </style>
 </head>
@@ -91,10 +97,65 @@
             </div>
         </nav>
     </nav>
-    <h1>บทคัดย่อเต็มๆ</h1>
-    <footer class="container-fluid text-center">
-        <p>Footer Text</p>
-    </footer>
+    <!--เนื้อหา-->
+    <div>
+        <!--  class="container text-center" -->
+        <p>
+            <center>
+                <h1>บทสนทนาภาษาอังกฤษในชีวิตประจำวัน</h1>
+            </center>
+        </p>
+        <center>
+            <h3>ตัวอย่างบทสนทนาภาษาอังกฤษ (Conversation)</h3>
+        </center>
+        <!-- </p> -->
+        <!-- </p> -->
+        <center>
+        <p>
+        <b>A:</b> Where do you live? (คุณอาศัยอยู่ที่ไหน ?)</p>
+        <b>B:</b> I live in Pasadena. (ฉันอาศัยอยู่ที่ Pasadena)</p>
+        <b>A:</b> Where is Pasadena? (Pasadena อยู่ตรงไหน ?)</p>
+        <b>B:</b> It's in California. (มันอยู่ใน California)</p>
+        <b>A:</b> Is it in northern California? (มันอยู่ทางเหนือของ California หรือป่าว ?)</p>
+        <b>B:</b> No. It's in southern California. (ไม่ใช่ มันอยู่ทางใต้ของ California)</p>
+        <b>A:</b> Is Pasadena a big city? (Pasadena นี่เป็นเมืองใหญ่หรือป่าว ?)</p>
+        <b>B:</b> It's pretty big. (มันค่อนข้างใหญ่)</p>
+        <b>A:</b> How big is "pretty big"? (ค่อนข้างใหญ่นี่ใหญ่เท่าไหนหรอ ?)</p>
+        <b>B:</b> It has about 140,000 people. (ก็มีประชากรประมาญ 140,000 คน)</p>
+        <b>A:</b> How big is Los Angeles? (แล้ว Los Angeles หล่ะใหญ่ขนาดไหน)</p>
+        <b>B:</b> It has about 3 million people. (ก็มีประชากรประมาญ 3,000,000 คน)</p>
+        </p>    
+        </center>
+        <div class="container text-center">
+            <!-- ลิ้งไป5.1กับ5.2 -->
+            <div class="col">
+                <a href="story1.html">
+                    <button type="button" class="btn btn-success btn-lg btn-block">
+                        <p>Back</p>
+                    </button>
+                </a></div><br>
+            <div class="col">
+                <a href="story12.html">
+                    <button type="button" class="btn btn-success btn-lg btn-block">
+                        <p>คำศัพท์</p>
+                    </button>
+                </a></div><br>
+            <div class="col">
+                <a href="#">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">
+                        <p>Back to top</p>
+                    </button>
+                </a></div>
+        </div>
+
+
+
+
+
+
+        <footer class="container-fluid text-center">
+            <p>Footer Text</p>
+        </footer>
 
 </body>
 
