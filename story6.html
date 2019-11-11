@@ -13,6 +13,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
     <style>
+        /* ตกแต่งกล่อง 5.1 5.2 */
+        .boxlink button {
+            border: 1px solid #3498db;
+            padding: 10px 20px;
+            color: black;
+            background: none;
+            font-size: 20px;
+        }
+
+        .boxlink button:hover {
+            color: white;
+            background: #3498db;
+        }
+
         body {
             font-family: 'Kanit', sans-serif;
         }
@@ -20,70 +34,68 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="fontnav">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Project</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="project.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Lesson
+                        </a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle" href="project.html" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Lesson
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="story1.html">บทที่ 1 ชีวิตประจำวัน</a>
-                        <ul>
-                            <li><a href="#">บทสนทนา</a></li>
-                            <li><a href="#">คำศัพท์</a></li>
-                        </ul>
-
-                        <a class="dropdown-item" href="story2.html">บทที่ 2 ธุรกิจและการค้าขาย</a>
-                        <ul>
-                            <li><a href="#">บทสนทนา</a></li>
-                            <li><a href="#">คำศัพท์</a></li>
-                        </ul>
-                        <a class="dropdown-item" href="story3.html">บทที่ 3 การท่องเที่ยว</a>
-                        <ul>
-                            <li><a href="#">บทสนทนา</a></li>
-                            <li><a href="#">คำศัพท์</a></li>
-                        </ul>
-                        <a class="dropdown-item" href="story4.html">บทที่ 4 การศึกษา</a>
-                        <ul>
-                            <li><a href="#">บทสนทนา</a></li>
-                            <li><a href="#">คำศัพท์</a></li>
-                        </ul>
-                        <a class="dropdown-item" href="story5.html">บทที่ 5 การแพทย์</a>
-                        <ul>
-                            <li><a href="story51.html">บทสนทนา</a></li>
-                            <li><a href="story52.html">คำศัพท์</a></li>
-                        </ul>
-                        <a class="dropdown-item" href="story6.html">บทที่ 6 การกีฬา</a>
-                        <ul>
-                            <li><a href="#">บทสนทนา</a></li>
-                            <li><a href="#">คำศัพท์</a></li>
-                        </ul>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="project.html">All Lesson</a>
-                    </div>
-
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">content</a>
-                </li>
-            </ul>
-
-        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="story1.html">บทที่ 1 ชีวิตประจำวัน</a>
+                            <ul>
+                                <li><a href="story11.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story12.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story2.html">บทที่ 2 ธุรกิจและการค้าขาย</a>
+                            <ul>
+                                <li><a href="story21.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story22.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story3.html">บทที่ 3 การท่องเที่ยว</a>
+                            <ul>
+                                <li><a href="story31.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story32.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story4.html">บทที่ 4 การศึกษา</a>
+                            <ul>
+                                <li><a href="story41.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story42.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story5.html">บทที่ 5 การแพทย์</a>
+                            <ul>
+                                <li><a href="story51.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story52.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story6.html">บทที่ 6 การกีฬา</a>
+                            <ul>
+                                <li><a href="story61.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story62.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="project.html">All Lesson</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Member</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </nav>
     <!--เนื้อหา-->
     <div class="container text-center">
@@ -105,10 +117,10 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn">1.Do you play any sports?</p>
+                        <p class="btn">Do you play any sports?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ดู ยู เพลย์ เอนนี สพอร์ทส</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ใช่ผมเล่นบาสเกตบอลครับ</p>
@@ -116,10 +128,10 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn">2.Yes, I play basketball.</p>
+                        <p class="btn">Yes, I play basketball.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">เยส ไอ เพลย์ บาสคิทบอล</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ใช่ผมเล่นบาสเกตบอลครับ</p>
@@ -130,7 +142,7 @@
                         <p class="btn">What sport do you like most?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">วอท สพอร์ท ดู ยู ไลค โมสท</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">คุณชอบกีฬาอะไรมากที่สุดค่ะ</p>
@@ -141,7 +153,7 @@
                         <p class="btn">I like football most.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ไอ ไลค ฟุทบอล โมสท</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ผมชอบฟูตบอลมากที่สุด</p>
@@ -152,7 +164,7 @@
                         <p class="btn">May I join you?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">เมย์ ไอ จอยน ยู</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ขอเล่นด้วยได้ไหม</p>
@@ -163,7 +175,7 @@
                         <p class="btn">Whom do you play with?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ฮูม ดู ยู เพลย์ วิธ</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">คุณเล่นกับใคร</p>
@@ -174,7 +186,7 @@
                         <p class="btn">Come and join us please.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">คัม แอนด จอยน อัส พลีซ</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">มาเล่นกับพวกเราสิครับ</p>
@@ -185,7 +197,7 @@
                         <p class="btn">Please teach me how to play?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">พลีซ ทีช มี ฮาว ทู เพลย์</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">คุณช่วยสอนผมเล่นหน่อยสิครับ</p>
@@ -196,7 +208,7 @@
                         <p class="btn">Not so good.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">นอท โซ กูด</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ก็ไม่เก่งมากนักหรอกค่ะ</p>
@@ -207,7 +219,7 @@
                         <p class="btn">No, I can’t but I wish to learn.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">โน ไอ แคนท บัท ไอ วิช ทู เลิร์น</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ผมเล่นไม่เป็นหรอกครับ แต่ก็อยากเรียนรู้นะครับ</p>
@@ -218,7 +230,7 @@
                         <p class="btn">Yes, I can but I’m only a beginner.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">เยส ไอ แคน บัท ไอม โอนลี อะ บิกินเนอะ</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">เล่นเป็นครับ แต่ว่าผมเพิ่งจะหัดเล่นนะ</p>
@@ -229,7 +241,7 @@
                         <p class="btn">Yes, I do but I’m not an expert.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">เยส ไอ ดู บัท ไอม นอท แอน เอคสเพิร์ท</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">เป็นค่ะ แต่ไม่ถึงกับเก่งมาก</p>
@@ -240,7 +252,7 @@
                         <p class="btn">Do you know how to play volleyball?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ดู ยู โน ฮาว ทู เพลย์ วอลลีบอล</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">คุณเล่นวอลเลย์บอลเป็นไหม</p>
@@ -251,7 +263,7 @@
                         <p class="btn">I want to improve my volleyball skills.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ไอ วอนท ทู อิมพรูฟว มาย วอลลีบอล สคิลส</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ฉันอยากพัฒนาทักษะการเล่นวอลเลย์บอล</p>
@@ -262,7 +274,7 @@
                         <p class="btn">How long have you been playing volleyball?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ฮาว ลอง แฮฟว ยู บีน เพลย์อิง วอลลีบอล</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">คุณเล่นวอลเลย์บอลมานานเท่าไรแล้ว</p>
@@ -273,7 +285,7 @@
                         <p class="btn">I have been playing volleyball for only 2 years.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ไอ แฮฟว บีน เพลย์อิง วอลลีบอล ฟอร์ โอนลี ทู เยียร์ส </p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ฉันเพิ่งหัดเล่นวอลเลย์บอลได้สองปีเท่านั้นเอง</p>
@@ -284,7 +296,7 @@
                         <p class="btn">Do you usually do exercise?</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ดู ยู ยูชวลลี ดู เอคเซอะไซซ</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">คุณออกกำลังกายเป็นประจำไหมคะ</p>
@@ -295,7 +307,7 @@
                         <p class="btn">Yes, I usually go jogging in the morning.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">เยส ไอ ยูชวลลี โก จอกกิง อิน เธอะ มอร์นิง</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ใช่ครับ ผมวิ่งเหยาะๆเป็นประจำทุกเช้าเลย</p>
@@ -306,7 +318,7 @@
                         <p class="btn">I want to burn some fat and get fit.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ไอ วอนท ทู เบิร์น ซัม แฟท แอนด เกท ฟิท</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">ผมอยากเผาผลาญไขมันและทำร่างกายให้แข็งแรงครับ</p>
@@ -317,7 +329,7 @@
                         <p class="btn">You should warm up your body for about … minutes.</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"></p>
+                        <p class="btn">ยู ชูด วอร์ม อัพ ยัวร์ บอดี ฟอร์ อะเบาท … มินนิทส</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn">คุณควรอบอุ่นร่างกายสักประมาณ… นาทีนะ</p>
@@ -402,7 +414,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn"?>What sporting event is this</p>
+                        <p class="btn" ?>What sporting event is this</p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
                         <p class="btn"></p>
@@ -441,8 +453,7 @@
                         <p class="btn"></p>
                     </div>
                     <div class="col-sm-4 btn btn-light">
-                        <p class="btn">สกี, สเก็ต,
-                เลื่อนหิมะและฮ๊อกกี้น้ำแข็งเป็นที่รู้กันว่า</p>
+                        <p class="btn">สกี, สเก็ต,เลื่อนหิมะและฮ๊อกกี้น้ำแข็งเป็นที่รู้กันว่า</p>
                     </div>
                 </div>
                 <div class="row">
