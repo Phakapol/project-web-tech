@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Project</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="project.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Lesson
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="story1.html">บทที่ 1 ชีวิตประจำวัน</a>
+                            <ul>
+                                <li><a href="story11.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story12.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story2.html">บทที่ 2 ธุรกิจและการค้าขาย</a>
+                            <ul>
+                                <li><a href="story21.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story22.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story3.html">บทที่ 3 การท่องเที่ยว</a>
+                            <ul>
+                                <li><a href="story31.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story32.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story4.html">บทที่ 4 การศึกษา</a>
+                            <ul>
+                                <li><a href="story41.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story42.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story5.html">บทที่ 5 การแพทย์</a>
+                            <ul>
+                                <li><a href="story51.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story52.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <a class="dropdown-item" href="story6.html">บทที่ 6 การกีฬา</a>
+                            <ul>
+                                <li><a href="story61.html" class="dropdown-item">บทสนทนา</a></li>
+                                <li><a href="story62.html" class="dropdown-item">คำศัพท์</a></li>
+                            </ul>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="project.html">All Lesson</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Member</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <!--เนื้อหา-->
+    <center>
+        <h3 class="text-center">คำศัพท์</h3><br>
+        <h4 class="text-center">คำศัพท์ที่ใช้ในสนามบิน</h4>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">#</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">คำศัพท์</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">อ่านว่า</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เเปลว่า</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">1.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">One-way ticket</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">ตั๋วเครื่องบินแบบเที่ยวเดียว</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">2.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Return ticket </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">ตั๋วเครื่องบินแบบไป-กลับ</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">3.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Boarding Pass</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">บัตรผ่านขึ้นเครื่องบิน </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">3.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Itinerary</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">แผนการเดินทาง</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">4.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Baggage/Luggage </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">กระเป๋าเดินทาง</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">5.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Checked bag </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">สัมภาระที่โหลดไว้ใต้ท้องเครื่องบิน</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">6.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Carry-on bag </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">สัมภาระที่ถือขึ้นเครื่องบินไปด้วย</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">7.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Baggage Claim</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">สายพานลำเลียงกระเป๋า</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">8.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Domestic flight </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เที่ยวบินภายในประเทศ</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">9.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">International flight </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เที่ยวบินต่างประเทศ</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">10.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Arrivals</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เที่ยวบินขาเข้า</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">11.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Departures</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เที่ยวบินขาออก</p>
+            </div>
+        </div>
+        <br><br>
+        <h4 class="text-center">คำศัพท์ที่ใช้ที่ร้านอาหาร</h4>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">#</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">คำศัพท์</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">อ่านว่า</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เเปลว่า</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">1.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">A la carte</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">การเลือกสั่งอาหารจานเดี่ยว</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">2.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">A la mode </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">อาหารที่มาคู่กับไอศกรีม</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">3.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Aperitif</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เครื่องดื่มเรียกน้ำย่อย (เสิร์ฟก่อนอาหาร) </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">4.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Beverages</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เครื่องดื่ม </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">5.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Starter / Appetizer </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">อาหารเรียกน้ำย่อย</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">6.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Side Dish </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เครื่องเคียง</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">7.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">All-you-can-eat </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">บริการอาหารแบบจ่ายเงินตามกำหนดแล้วสามารถกินได้ไม่อั้น</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">8.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Buffet</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">การทานอาหารแบบบริการตัวเอง</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">9.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Brasserie</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">ร้านอาหารที่มีลักษณะกึ่งบาร์</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">10.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Utensils / Cutlery </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">มีด ช้อน ส้อม ที่ใช้ในการรับประทานอาหาร </p>
+            </div>
+        </div>
+        <br><br>
+        <h4 class="text-center">คำศัพท์ที่ใช้ในที่พัก/โรงแรม</h4>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">1.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Reservation counters </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เคาน์เตอร์จองล่วงหน้า</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">2.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Receptionist </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">พนักงานต้อนรับ</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">3.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Carpet</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">พรม</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">4.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Warm running water </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">น้ำร้อนที่ใช้อาบ</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">5.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Tax</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">ภาษี</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">6.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Include</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">รวมทั้ง</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">7.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Advance</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">ล่วงหน้า</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">8.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Bill</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">ใบเรียกเก็บเงิน</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">9.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Check out</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เช็คออก (จากโรงแรม)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">10.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Chek out time </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เวลาเช็คออก</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">11.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Sign</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">เซ็นชื่อ</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">12.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Registration card </p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">บัตรลงทะเบียน</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">13.</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">Elevator</p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn"></p>
+            </div>
+            <div class="col-sm-3 btn btn-light">
+                <p class="btn">ลิฟต์</p>
+            </div>
+        </div>
+    </center>
+    <br><br>
+    <div class="container text-center">
+        <!-- ลิ้งไป3.1กับ3.2 -->
+        <div class="col">
+            <a href="story3.html">
+                <button type="button" class="btn btn-success btn-lg btn-block">
+                    <p>Back</p>
+                </button>
+            </a></div><br>
+        <div class="col">
+            <a href="story32.html">
+                <button type="button" class="btn btn-success btn-lg btn-block">
+                    <p>คำศัพท์</p>
+                </button>
+            </a></div><br>
+        <div class="col">
+            <a href="#">
+                <button type="button" class="btn btn-primary btn-lg btn-block">
+                    <p>Back to top</p>
+                </button>
+            </a></div>
+    </div>
+
+
+
+
+
+
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
+</body>
+
+</html>
